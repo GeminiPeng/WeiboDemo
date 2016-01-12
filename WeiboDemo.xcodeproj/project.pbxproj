@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A0BC7274E1AD166C90E0B7E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7782FC987B03D03650BF8072 /* libPods.a */; };
 		5618F7CC1C3FA77A008F1563 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5618F7CB1C3FA77A008F1563 /* main.m */; };
 		5618F7CF1C3FA77A008F1563 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5618F7CE1C3FA77A008F1563 /* AppDelegate.m */; };
 		5618F7D21C3FA77A008F1563 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5618F7D11C3FA77A008F1563 /* ViewController.m */; };
 		5618F7D51C3FA77A008F1563 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5618F7D31C3FA77A008F1563 /* Main.storyboard */; };
 		5618F7D71C3FA77A008F1563 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5618F7D61C3FA77A008F1563 /* Assets.xcassets */; };
 		5618F7DA1C3FA77A008F1563 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5618F7D81C3FA77A008F1563 /* LaunchScreen.storyboard */; };
+		56333B7A1C438B8C00F29B4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56333B791C438B8C00F29B4D /* UIKit.framework */; };
+		56333B7C1C438B9F00F29B4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56333B7B1C438B9F00F29B4D /* Foundation.framework */; };
+		56333B931C43AD3A00F29B4D /* WeiboListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56333B921C43AD3A00F29B4D /* WeiboListController.m */; };
+		56333B991C43ADA300F29B4D /* WeiboCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56333B981C43ADA300F29B4D /* WeiboCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,16 @@
 		5618F7D61C3FA77A008F1563 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5618F7D91C3FA77A008F1563 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5618F7DB1C3FA77B008F1563 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56333B791C438B8C00F29B4D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		56333B7B1C438B9F00F29B4D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		56333B841C43A35B00F29B4D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		56333B911C43AD3A00F29B4D /* WeiboListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboListController.h; sourceTree = "<group>"; };
+		56333B921C43AD3A00F29B4D /* WeiboListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiboListController.m; sourceTree = "<group>"; };
+		56333B971C43ADA300F29B4D /* WeiboCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboCell.h; sourceTree = "<group>"; };
+		56333B981C43ADA300F29B4D /* WeiboCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiboCell.m; sourceTree = "<group>"; };
+		7782FC987B03D03650BF8072 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3E27D7CBD23AAF6C76853E5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BCB70D6347B2D97E0359A27B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +48,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56333B7C1C438B9F00F29B4D /* Foundation.framework in Frameworks */,
+				56333B7A1C438B8C00F29B4D /* UIKit.framework in Frameworks */,
+				2A0BC7274E1AD166C90E0B7E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +62,8 @@
 			children = (
 				5618F7C91C3FA77A008F1563 /* WeiboDemo */,
 				5618F7C81C3FA77A008F1563 /* Products */,
+				B0C56C822E1C228FBEE90450 /* Pods */,
+				B313D919E8281EB5D343E14E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +80,9 @@
 			children = (
 				5618F7CD1C3FA77A008F1563 /* AppDelegate.h */,
 				5618F7CE1C3FA77A008F1563 /* AppDelegate.m */,
-				5618F7D01C3FA77A008F1563 /* ViewController.h */,
-				5618F7D11C3FA77A008F1563 /* ViewController.m */,
+				56333B951C43AD5200F29B4D /* model */,
+				56333B961C43AD5700F29B4D /* view */,
+				56333B941C43AD4300F29B4D /* controller */,
 				5618F7D31C3FA77A008F1563 /* Main.storyboard */,
 				5618F7D61C3FA77A008F1563 /* Assets.xcassets */,
 				5618F7D81C3FA77A008F1563 /* LaunchScreen.storyboard */,
@@ -75,8 +96,55 @@
 			isa = PBXGroup;
 			children = (
 				5618F7CB1C3FA77A008F1563 /* main.m */,
+				56333B841C43A35B00F29B4D /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56333B941C43AD4300F29B4D /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				5618F7D01C3FA77A008F1563 /* ViewController.h */,
+				5618F7D11C3FA77A008F1563 /* ViewController.m */,
+				56333B911C43AD3A00F29B4D /* WeiboListController.h */,
+				56333B921C43AD3A00F29B4D /* WeiboListController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		56333B951C43AD5200F29B4D /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		56333B961C43AD5700F29B4D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				56333B971C43ADA300F29B4D /* WeiboCell.h */,
+				56333B981C43ADA300F29B4D /* WeiboCell.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		B0C56C822E1C228FBEE90450 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3E27D7CBD23AAF6C76853E5 /* Pods.debug.xcconfig */,
+				BCB70D6347B2D97E0359A27B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B313D919E8281EB5D343E14E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56333B7B1C438B9F00F29B4D /* Foundation.framework */,
+				56333B791C438B8C00F29B4D /* UIKit.framework */,
+				7782FC987B03D03650BF8072 /* libPods.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +154,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5618F7DE1C3FA77B008F1563 /* Build configuration list for PBXNativeTarget "WeiboDemo" */;
 			buildPhases = (
+				519EA4A9AE3BE950FB2FFD27 /* Check Pods Manifest.lock */,
 				5618F7C31C3FA77A008F1563 /* Sources */,
 				5618F7C41C3FA77A008F1563 /* Frameworks */,
 				5618F7C51C3FA77A008F1563 /* Resources */,
+				6CF3ADC3489BFBBC9B05E76A /* Embed Pods Frameworks */,
+				17B3336BE11384F9A92B1A8D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,13 +216,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17B3336BE11384F9A92B1A8D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		519EA4A9AE3BE950FB2FFD27 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6CF3ADC3489BFBBC9B05E76A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5618F7C31C3FA77A008F1563 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5618F7D21C3FA77A008F1563 /* ViewController.m in Sources */,
+				56333B991C43ADA300F29B4D /* WeiboCell.m in Sources */,
 				5618F7CF1C3FA77A008F1563 /* AppDelegate.m in Sources */,
+				56333B931C43AD3A00F29B4D /* WeiboListController.m in Sources */,
 				5618F7CC1C3FA77A008F1563 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,9 +381,11 @@
 		};
 		5618F7DF1C3FA77B008F1563 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3E27D7CBD23AAF6C76853E5 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WeiboDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ten-step.WeiboDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -271,9 +394,11 @@
 		};
 		5618F7E01C3FA77B008F1563 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCB70D6347B2D97E0359A27B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WeiboDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ten-step.WeiboDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +424,7 @@
 				5618F7E01C3FA77B008F1563 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
